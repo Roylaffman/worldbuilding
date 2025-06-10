@@ -28,9 +28,12 @@ function List() {
                     <h2>{book.title}</h2>
                     <h3>by {book.author}</h3>
                     <p>{book.description}</p>
+                    <hr></hr>
                 </div>
+
             ))}
         </div>
+
     );
 }
 

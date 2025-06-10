@@ -4,7 +4,7 @@
 function Body(){
 
     const name1 = 'Ryan';
-    const number = 12;
+    const number = 22;
     return(
 
         <body>
@@ -15,6 +15,7 @@ function Body(){
     
     {/*<script type="module" src="/src/main.jsx"></script> */}
     <hr></hr>
+
   </body>
     );
 }

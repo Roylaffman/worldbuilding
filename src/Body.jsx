@@ -8,7 +8,7 @@ function Body(){
     return(
 
         <body>
-               <h2>{name1}'s Non-Fiction Read</h2>
+               <h2>{name1}'s Non-Fiction Reading</h2>
             <h3>From Documentation to Books on Drawing</h3>
     <div id="root"></div>
     <div>  {number}   </div>

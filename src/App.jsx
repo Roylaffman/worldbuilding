@@ -3,21 +3,25 @@ import Footer from './Footer.jsx'
 import Book from './Book.jsx' 
 import Body from './Body.jsx'
 import List from './List.jsx'
-function App() {
+import MAP from './map.jsx'
+import Task from './Task.jsx'
 
+function App() {
   return(
     <>
-    <Header/>
-    <Body/>
-    <List/>
-    <Book/>
+      <Header/>
+      <div className="container mx-auto px-4 py-8">
 
-
-    <Footer/>
-    
+        <Body/>
+        <List/>
+        <Book/>
+        <Task/>
+        <MAP/>
+      </div>
+      <Footer/>
     </>
   );
-  
+
 }
 
 export default App

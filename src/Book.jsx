@@ -14,7 +14,7 @@ function Book(){
                     <li><a href="#">the book of elsewhere</a></li>
                     <li><a href="#">Planet of Exile</a></li>
                     {/* add more books with links to notes on books. Obsidian publishing could be good here */} 
-                   
+                   <p>     *           </p>
                 </ul>
             </nav>
         </header>

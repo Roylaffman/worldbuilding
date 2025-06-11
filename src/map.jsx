@@ -3,7 +3,7 @@ import "leaflet/dist/leaflet.css"
 import {MapContainer, TileLayer} from "react-leaflet"
 import {Marker} from "react-leaflet";
 
-export default function MAP() {
+export default function Map() {
 
     const markers = [
         {

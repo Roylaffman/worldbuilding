@@ -3,7 +3,7 @@ import Footer from './Footer.jsx'
 import Book from './Book.jsx' 
 import Body from './Body.jsx'
 import List from './List.jsx'
-import MAP from './map.jsx'
+import Map from './map.jsx'
 import Task from './Task.jsx'
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <List/>
         <Book/>
         <Task/>
-        <MAP/>
+        <Map/>
       </div>
       <Footer/>
     </>

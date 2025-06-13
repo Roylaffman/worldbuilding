@@ -1,7 +1,7 @@
 import "./App.css"
 import "leaflet/dist/leaflet.css"
 import {MapContainer, TileLayer} from "react-leaflet"
-import {Marker} from "react-leaflet";
+import {Marker, Popup} from "react-leaflet";
 
 export default function Map() {
 
@@ -21,7 +21,10 @@ export default function Map() {
                 url={"https://tile.openstreetmap.org/{z}/{x}/{y}.png"}
                 />
             {markers.map(marker=> (
-                    <Marker position ={marker.geocode}>
+                    <Marker position={marker.geocode}>
+                        <Popup>
+                            {marker.popUp}
+                        </Popup>
                     </Marker>
                 ))
             }

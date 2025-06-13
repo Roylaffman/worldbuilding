@@ -15,7 +15,7 @@ function App() {
         <Body/>
         <List/>
         <Book/>
-        <Task/>
+        <Body/>
         <Map/>
       </div>
       <Footer/>

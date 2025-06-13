@@ -9,6 +9,10 @@ export default function Map() {
         {
             geocode: [35.6009501, -82.55401],
             popUp: "Asheville"
+        },
+        {
+            geocode: [35.56352278786, -82.5548627995],
+            popUp: "Biltmore Mound"
         }
 
     ];

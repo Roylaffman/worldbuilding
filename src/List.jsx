@@ -22,12 +22,14 @@ function List() {
 
     return (
         <div className="book-list">
-            <h1>Book List</h1>
+            <h2>Book List</h2>
             {books.map(book => (
                 <div key={book.id} className="book-item">
                     <h2>{book.title}</h2>
                     <h3>by {book.author}</h3>
                     <p>{book.description}</p>
+                    <div> *</div>
+                    <div><a> *</a></div>
                     <hr></hr>
                 </div>
 

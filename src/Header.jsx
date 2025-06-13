@@ -14,7 +14,7 @@ function Header() {
                 <div className="flex justify-between items-center py-4">
                     {/* Logo */}
                     <div className="flex items-center">
-                        <h1 className="text-2xl font-bold">Test App</h1>
+                        <h1 className="text-2xl font-bold">TESTING!</h1>
                     </div>
 
                     {/* Desktop Navigation */}

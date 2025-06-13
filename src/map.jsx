@@ -47,11 +47,13 @@ export default function Map() {
                 <Marker key={marker.id} position={marker.geocode} >
                     <Popup closeButton={true} autoClose={true} closeOnEscapeKey={true}>
                         <div>{marker.popUp}</div>
+                        {/* <Tooltip hover>ECFU</Tooltip>*/}
                     </Popup>
+
                 </Marker>
             ))
             }
-            <Tooltip permanent>Always visible text</Tooltip>
+            <Tooltip hover>Always visible text</Tooltip>
         </MapContainer>
     );
 }
